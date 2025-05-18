@@ -4,4 +4,4 @@ Projetos de HTML e CSS
 
    <a href="https://philipepereira10.github.io/html-css/projeto-imagine-dragons/index.html"> Executar projeto imagine dragons</a>
 
-   <a href="https://philipepereira10.github.io/html-css/exercicio%20formulario/index.html"> Executar formulario</a>
+   <a href="https://philipepereira10.github.io/html-css/exercicioformulario/index.html"> Executar formulario</a>
