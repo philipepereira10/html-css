@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* css - Estilos base do site Imagine Dragons */
+
+/* corpo da página */
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1c2526;
+  color: #CFD8DC;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* navbar */
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: blue !important;
+}
+
+.btn-primary {
+  background-color: #FF9800;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e65100;
+}
+
+footer a {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+footer a:hover {
+  color: #FF98  00;
+}
+
+#logoID {
+  width: 250px;
+}
+
+ /* id criada para background carrosel */
+
+ #btnbtn-black {
+  background-color: black;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+  
+
+}
+
+#btnbtn-black:hover {
+  background-color: blue;
+  border: #1c2526;
+}
+
+/* id criada para texto posicionar à esquerda */
+#left {
+  text-align: left;
+}
+
+li,h3 {
+  color: white;
+}
+/* Media Queries   */
+@media (max-width: 768px) {
+  .navbar-nav {
+  text-align: center;
+  }
+  .navbar-nav .nav-item {
+  margin: 0.5rem 0;
+  }
+  .row {
+  flex-direction: column;
+  }
+  .row>div {
+  margin-bottom: 1rem;
+  }
+} 
+
+/* id criada página albuns para os cards estarem alinhados */
+#card {
+  display:inline-block;
+  padding: 10px;
+ 
+}
+
+/* id criada as imagens do carousel terem um tamanho máximo*/
+#carousel-concertos img {
+  max-height: 500px; 
+  object-fit: cover;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  border-bottom: 2px solid;
+  padding-bottom: 0.5rem;
+  
+}
+
+section h3 {
+  
+  padding-bottom: 0.5rem;
+ 
+}
+
+
+section p {
+  margin-bottom: 1.5rem;
+  
+}
+
+
