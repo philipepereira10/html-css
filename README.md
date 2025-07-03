@@ -7,7 +7,7 @@ Projetos de HTML e CSS
 
    <a href="https://philipepereira10.github.io/html-css/exercicioformulario/index.html"> Executar formulário</a>
 
-   <a href="https://philipepereira10.github.io/html-css/loginhtmlcss/index.html"> Executar Login html/css</a>
+   <a href="https://philipepereira10.github.io/html-css/loginhtmlcss/index.html"> Executar Login html e css</a>
 
 
   
