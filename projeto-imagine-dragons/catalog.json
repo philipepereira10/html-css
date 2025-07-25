@@ -1,0 +1,184 @@
+{
+  "categories": [
+   {"id": "novidades", "name" : "Novidades"},
+    { "id": "cds", "name": "CDs" },
+    { "id": "vinis", "name": "Vinil" },
+    { "id": "merch", "name": "Merchandise" },
+    { "id": "acessorios", "name": "Acessórios" }
+  ],
+  "products": [
+
+   {
+      "id": "novidades",
+      "name": "Hoodie Evolve",
+      "description": "Hoddie do Album Evolve",
+      "price": "24.99",
+      "category": "novidades",
+      "image": "imagens/roupa2.jpg"
+   }, 
+
+    {
+      "id": "novidades",
+      "name": "Hoddie Imagine Dragons cinzento",
+      "description": "Hoddie Imagine Dragons cinzento",
+      "price": "29.99",
+      "category": "novidades",
+      "image": "imagens/roupa3.jpg"
+   }, 
+
+    {
+      "id": "novidades",
+      "name": "Hoddie Imagine Dragons ",
+      "description": "Hoddie Imagine Dragons",
+      "price": "26.99",
+      "category": "novidades",
+      "image": "imagens/roupa1.jpg"
+   }, 
+
+    {
+      "id": "novidades",
+      "name": "Hoddie Imagine Dragons Branco",
+      "description": "Hoddie Imagine Dragons",
+      "price": "28.99",
+      "category": "novidades",
+      "image": "imagens/roupa4.jpg"
+   }, 
+
+    {
+      "id": "cd1",
+      "name": "CD - LOOM (2024)",
+      "description": "Novo álbum LOOM com sons poderosos e letras profundas.",
+      "price": "14.99",
+      "category": "cds",
+      "image": "imagens/loom.jpeg"
+    },
+    {
+      "id": "cd2",
+      "name": "CD - Night Visions (2012)",
+      "description": "Álbum de estreia com os hits 'Radioactive' e 'Demons'.",
+      "price": "12.99",
+      "category": "cds",
+      "image": "imagens/night.jpeg"
+    },
+    {
+      "id": "cd3",
+      "name": "CD - Smoke + Mirrors (2015)",
+      "description": "Segundo álbum com faixas mais experimentais.",
+      "price": "13.99",
+      "category": "cds",
+      "image": "imagens/smoke.jpeg"
+    },
+    {
+      "id": "cd4",
+      "name": "CD - Evolve (2017)",
+      "description": "Inclui 'Believer', 'Thunder' e outros sucessos.",
+      "price": "14.49",
+      "category": "cds",
+      "image": "imagens/evolve.jpeg"
+    },
+
+
+    {
+      "id": "vinil1",
+      "name": "Vinil - Night Visions",
+      "description": "Edição limitada em vinil colorido.",
+      "price": "29.99",
+      "category": "vinis",
+      "image": "imagens/nightvinil.jpg"
+    },
+    {
+      "id": "vinil2",
+      "name": "Vinil - Mercury Acts 1 & 2",
+      "description": "Box especial com 2 vinis.",
+      "price": "39.99",
+      "category": "vinis",
+      "image": "imagens/mercuryvinil.jpg"
+    },
+    {
+      "id": "vinil3",
+      "name": "Vinil - Origins",
+      "description": "Inclui 'Natural' e 'Bad Liar'.",
+      "price": "34.99",
+      "category": "vinis",
+      "image": "imagens/originsvinil.jpg"
+    },
+    {
+      "id": "vinil4",
+      "name": "Vinil - Evolve",
+      "description": "Vinil laranja translúcido. Edição especial.",
+      "price": "31.99",
+      "category": "vinis",
+      "image": "imagens/evolvevinil.jpg"
+    },
+
+    {
+      "id": "merch1",
+      "name": "T-shirt 'Follow You'",
+      "description": "Camisola com imagens do single.",
+      "price": "24.99",
+      "category": "merch",
+      "image": "imagens/roupa_follow_you.jpg"
+    },
+    {
+      "id": "merch2",
+      "name": "Hoodie Logo Oficial",
+      "description": "Hoodie com o logotipo da banda bordado.",
+      "price": "49.99",
+      "category": "merch",
+      "image": "imagens/hoodie.jpg"
+    },
+    {
+      "id": "merch3",
+      "name": "Hoodie LOOM",
+      "description": "Hoodie com arte do álbum LOOM.",
+      "price": "39.99",
+      "category": "merch",
+      "image": "imagens/roupabestseller1.webp"
+    },
+    {
+      "id": "merch4",
+      "name": "Sweatshirt Origins",
+      "description": "Sweatshirt confortável com design do álbum Origins.",
+      "price": "26.99",
+      "category": "merch",
+      "image": "imagens/roupabestseller3.webp"
+    },
+
+  
+
+
+
+    {
+      "id": "acc1",
+      "name": "Boné Oficial",
+      "description": "Boné preto com logotipo da banda.",
+      "price": "19.99",
+      "category": "acessorios",
+      "image": "imagens/bone.jpg"
+    },
+    {
+      "id": "acc2",
+      "name": "Chaveiro Imagine Dragons",
+      "description": "Chaveiro metálico da banda.",
+      "price": "7.99",
+      "category": "acessorios",
+      "image": "imagens/chaveiro.jpg"
+    },
+    {
+      "id": "acc3",
+      "name": "Saco Tote 'Imagine Dragons'",
+      "description": "Saco ecológico com print da banda.",
+      "price": "14.99",
+      "category": "acessorios",
+      "image": "imagens/totebag.jpg"
+    },
+    {
+      "id": "acc4",
+      "name": "Pulseira Tour 2023",
+      "description": "Pulseira de borracha oficial da última tour.",
+      "price": "5.99",
+      "category": "acessorios",
+      "image": "imagens/pulseira.png"
+    }
+  ]
+}

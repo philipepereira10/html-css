@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Philipe Santos">
+  <meta name="description" content="Site oficial dos Imagine Dragons com discografia, concertos e contactos.">
+  <meta name="keywords" content="Imagine Dragons, banda Imagine Dragons, músicas Imagine Dragons, Radioactive, Dan Reynolds, discografia Imagine Dragons, rock alternativo, pop rock, origem Imagine Dragons,
+   curiosidades Imagine Dragons, álbuns Imagine Dragons, história Imagine Dragons, Las Vegas banda, sucessos musicais, concertos Imagine Dragons, Grammy Imagine Dragons, banda americana de rock">
+  <title>Imagine Dragons - Loja Oficial</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estiloloja.css">
+  <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/7861770210.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0
+     ,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:
+     ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,10
+     0;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"> 
+  <!-- Lightbox2 CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  <!-- Bootstrap  para o Toast  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+  
+<!-- Navbar -->
+<header class="bg-dark text-light py-3">
+  <nav class="container navbar navbar-expand-lg navbar-dark">
+     <div class="justify-content-left">
+      <a class="navbar-brand mx-auto" href="lojaindex.html">
+        <a href="lojaindex.html"><img id="logoID"  src="imagens/imaginedragons.png" alt="Imagine Dragons Logo"></a>
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="true" aria-label="Toggsle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse  justify-content-end navbar-collapse" id="navbarNav"> 
+       <div class="d-none d-md-flex gap-3 ms-auto">
+        <a href="#"><i id="icon"class="fa-solid fa-search"></i></a>
+        <a href="#"><i id="icon" class="fa-solid fa-user"></i></a>
+        <a href="#"><i id="icon"class="fa-solid fa-cart-shopping"></i></a>
+         <ul class="navbar-nav ml-auto " style="text-align: center;">
+        <li class="nav-item"><a class="nav-link text-white" href="index.html">Voltar a Imagine Dragons</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+</header>   
+
+ <img src="imagens/bannerimaginedragons.webp" alt="Banner Imagine Dragons" height="auto" width="100%">
+
+ <div class="barra-destaque">
+  Entrega grátis para compras acima de 50€!
+</div>
+<!-- cabeçalho com nome da banda -->
+  <button id="btnTopo" title="Voltar ao topo">⬆️</button>
+    <main class="container my-5">
+  <section id="product-list-vinil">
+    <h1 class="text-center mb-5">Loja Oficial - Imagine Dragons</h1>
+
+    <div id="categorias-container"></div>
+
+    <hr class="my-5 border-light">
+
+    <div class="text-center mb-4">
+      
+      <div class="barra-destaque">
+       Entrega grátis para compras acima de 50€!
+      </div>
+
+      <div id="order-form" class="container my-5">
+        <h2 class="mb-4">Calcular Valor Total</h2>
+        <form id="calc-form" class="bg-dark p-4 rounded text-white">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nome:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="product" class="form-label">Escolha um produto:</label>
+            <select id="product" name="product" class="form-select" required>
+              <!-- Produtos serão carregados aqui -->
+            </select>
+          </div>
+
+          <p id="preco-display" class="mb-3 fw-semibold text-warning"></p>
+
+          <div class="mb-3">
+            <label for="quantity" class="form-label">Quantidade:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" class="form-control" required>
+          </div>
+
+          <button type="submit" id="calculate" class="btn btn-warning">Calcular Valor</button>
+        </form>
+
+        <div id="total-value" class="mt-4 text-white fw-bold fs-5"></div>
+      </div>
+
+      <h2 class="c-text-content-heading text_heading_lg">Todos os produtos</h2>
+
+      <img src="imagens/bannershop.png" alt="Banner Imagine Dragons" width="100%" style="height:auto;">
+
+      <label for="filtroCategoria" class="form-label mt-4">Filtrar por categoria:</label>
+      <select id="filtroCategoria" class="form-select w-auto d-inline-block mb-4">
+        <option value="todos">Todos</option>
+      </select>
+
+      <div id="todos-produtos" class="d-flex flex-wrap justify-content-center gap-4"></div>
+    </div>
+  </section>
+
+
+  <hr>
+  <section id="myworkbtn" class="mb-5">
+    <div class="row">
+      <div class="col-md-6">
+        <a ><img src="imagens/shopacessories.webp" alt="Acessorios e roupas" class="img-fluid"></a>
+      </div>
+      <div class="col-md-6">
+        <a ><img src="imagens/shopacessorires2.jpg" alt="Acessorios e roupas" class="img-fluid"></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 9999">
+  <div  id="meuToast" class="toast text-white bg-dark" role="alert" aria-live="assertive" aria-atomic="true">
+    <div  class="toast-header bg-dark text-white">
+      <strong class="me-auto">Loja Ofical Imagine Dragons &copy;</strong>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Fechar"></button>
+    </div>
+    <div style="background-color: blue;" class="toast-body" id="toast-body">
+      <!-- Conteúdo  preenchido por JS -->
+    </div>
+  </div>
+</div>
+
+
+<br>
+
+
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row align-items-start">
+
+      <!-- logo e links -->
+      <div class="col-md-6">
+        <a href="lojaindex.html">
+          <img src="imagens/IMAGINE_DRAGONS_-Stacked_footer2.webp" alt="Logo" width="200px" class="img-fluid mb-3">
+        </a>
+        <p>&copy; Imagine Dragons |
+          <a href="#" class="text-light">Política de Privacidade</a>
+        </p>
+        <p>
+          <a href="#" class="text-light">Ajuda e Suporte</a> |
+          <a href="#" class="text-light">Termos e Condições</a>
+        </p>
+        <div>
+          <a href="https://www.facebook.com/ImagineDragons" class="text-light mx-2"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/" class="text-light mx-2"><i class="fa fa-twitter"></i></a>
+          <a href="https://youtube.com/in/ImagineDragons" class="text-light mx-2"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.instagram.com/ImagineDragons" class="text-light mx-2"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Coluna do formulário -->
+      <div class="col-md-6">
+        <form action="">
+          <div class="mb-3">
+            <label for="exemploInputEmail1" class="form-label">Inscreva-se para novidades:</label>
+            <input type="email" class="form-control" id="exemploInputEmail1" placeholder="Seu email">
+            <div  class="form-text text-white">Nunca partilharemos seu email com ninguém.</div>
+          </div>
+          <div class="form-check mb-2">
+            <input type="checkbox" class="form-check-input" id="exemploCheck1">
+            <label class="form-check-label" for="exemploCheck1">Aceito receber comunicações</label>
+          </div>
+          <button type="submit"  class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+<script src="script/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+</body>
+</html>
